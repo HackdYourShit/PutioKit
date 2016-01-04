@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085937788F8843CF8ACD72B1 /* libPods-PutioKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36016D98451D4874A87B0426 /* libPods-PutioKit.a */; };
+		11A3C48CE90BC6480239CCB6 /* libPods-PutioKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB3758986C110371728EAC6 /* libPods-PutioKit.a */; };
 		6028B7F915FD08DF002EA5A1 /* PKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B7F615FD08DF002EA5A1 /* PKFile.m */; };
 		6028B7FA15FD08DF002EA5A1 /* PKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B7F615FD08DF002EA5A1 /* PKFile.m */; };
 		6039D03C15FBC8EA00ACA5B4 /* PKTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039D03915FBC8EA00ACA5B4 /* PKTransfer.m */; };
@@ -36,7 +36,7 @@
 		60DE5BF61642C05E00DE850E /* PKFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DE5BF51642C05E00DE850E /* PKFolder.m */; };
 		60E9B0C2164514450054A1CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E9B0C1164514450054A1CE /* UIKit.framework */; };
 		60E9B0CD164523410054A1CE /* PKMP4Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E9B0CC164523410054A1CE /* PKMP4Status.m */; };
-		85F9AFE6360A4E2CB1049AF6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25070C1AE9124CAAA0308320 /* libPods.a */; };
+		629A11D146F151B6E6F508D0 /* libPods-PutioKit for Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF42B0AF824AB8B3BED2486 /* libPods-PutioKit for Mac.a */; };
 		86617B8A177F605B0092B932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86617B89177F605B0092B932 /* Cocoa.framework */; };
 		86617BB2177F60E60092B932 /* PutioKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A7BFD515FA82A700FEB45E /* PutioKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86617BB4177F61090092B932 /* PutIOClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6054910E163F5B0600E65853 /* PutIOClient.m */; };
@@ -60,7 +60,6 @@
 		86617BC6177F69D80092B932 /* PKAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A7BFFE15FA82F600FEB45E /* PKAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86617BC7177F69E40092B932 /* PKAccountSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A7C00815FA8ACA00FEB45E /* PKAccountSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86617BC8177F69EF0092B932 /* PKFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A7C00C15FA941F00FEB45E /* PKFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDFB13E164FA4F3999E4FC3E /* libPods-PutioKit for Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4322E006979C4ADEB1B16335 /* libPods-PutioKit for Mac.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,11 +86,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2391DF3671F44BCBAC4CBDAD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		24B61896F5C444C9B92454D9 /* Pods-PutioKit for Mac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutioKit for Mac.xcconfig"; path = "Pods/Pods-PutioKit for Mac.xcconfig"; sourceTree = SOURCE_ROOT; };
-		25070C1AE9124CAAA0308320 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		36016D98451D4874A87B0426 /* libPods-PutioKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PutioKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4322E006979C4ADEB1B16335 /* libPods-PutioKit for Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PutioKit for Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB3758986C110371728EAC6 /* libPods-PutioKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PutioKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A98E8620F740BC54D1EB6F /* Pods-PutioKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutioKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PutioKit/Pods-PutioKit.debug.xcconfig"; sourceTree = "<group>"; };
 		6028B7F515FD08DF002EA5A1 /* PKFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = PKFile.h; sourceTree = "<group>"; };
 		6028B7F615FD08DF002EA5A1 /* PKFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFile.m; sourceTree = "<group>"; };
 		6039D03815FBC8EA00ACA5B4 /* PKTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = PKTransfer.h; sourceTree = "<group>"; };
@@ -131,6 +127,7 @@
 		60E9B0C1164514450054A1CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		60E9B0CB164523410054A1CE /* PKMP4Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMP4Status.h; sourceTree = "<group>"; };
 		60E9B0CC164523410054A1CE /* PKMP4Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMP4Status.m; sourceTree = "<group>"; };
+		67587C09ACFECC63B5852938 /* Pods-PutioKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutioKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PutioKit/Pods-PutioKit.release.xcconfig"; sourceTree = "<group>"; };
 		86617B88177F605B0092B932 /* PutioKit for Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PutioKit for Mac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86617B89177F605B0092B932 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		86617B8C177F605B0092B932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,7 +136,9 @@
 		86617B91177F605B0092B932 /* PutioKit for Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PutioKit for Mac-Info.plist"; sourceTree = "<group>"; };
 		86617B95177F605B0092B932 /* PutioKit for Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PutioKit for Mac-Prefix.pch"; sourceTree = "<group>"; };
 		86617B9E177F605B0092B932 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		951E6D92D7504C389365BB9E /* Pods-PutioKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutioKit.xcconfig"; path = "Pods/Pods-PutioKit.xcconfig"; sourceTree = SOURCE_ROOT; };
+		D360C841725A801F8E88881B /* Pods-PutioKit for Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutioKit for Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-PutioKit for Mac/Pods-PutioKit for Mac.release.xcconfig"; sourceTree = "<group>"; };
+		DFF42B0AF824AB8B3BED2486 /* libPods-PutioKit for Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PutioKit for Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA420A85D8C062550AE55D73 /* Pods-PutioKit for Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutioKit for Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PutioKit for Mac/Pods-PutioKit for Mac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +148,7 @@
 			files = (
 				60E9B0C2164514450054A1CE /* UIKit.framework in Frameworks */,
 				60A7BFD115FA82A700FEB45E /* Foundation.framework in Frameworks */,
-				85F9AFE6360A4E2CB1049AF6 /* libPods.a in Frameworks */,
-				085937788F8843CF8ACD72B1 /* libPods-PutioKit.a in Frameworks */,
+				11A3C48CE90BC6480239CCB6 /* libPods-PutioKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,13 +168,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				86617B8A177F605B0092B932 /* Cocoa.framework in Frameworks */,
-				EDFB13E164FA4F3999E4FC3E /* libPods-PutioKit for Mac.a in Frameworks */,
+				629A11D146F151B6E6F508D0 /* libPods-PutioKit for Mac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD4720FA27F4951C1177C1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58A98E8620F740BC54D1EB6F /* Pods-PutioKit.debug.xcconfig */,
+				67587C09ACFECC63B5852938 /* Pods-PutioKit.release.xcconfig */,
+				FA420A85D8C062550AE55D73 /* Pods-PutioKit for Mac.debug.xcconfig */,
+				D360C841725A801F8E88881B /* Pods-PutioKit for Mac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		60549117163F5CF100E65853 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,9 +227,7 @@
 				86617B8F177F605B0092B932 /* PutioKit for Mac */,
 				60A7BFCF15FA82A700FEB45E /* Frameworks */,
 				60A7BFCE15FA82A700FEB45E /* Products */,
-				2391DF3671F44BCBAC4CBDAD /* Pods.xcconfig */,
-				951E6D92D7504C389365BB9E /* Pods-PutioKit.xcconfig */,
-				24B61896F5C444C9B92454D9 /* Pods-PutioKit for Mac.xcconfig */,
+				0AD4720FA27F4951C1177C1B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -241,12 +248,11 @@
 				60A7BFD015FA82A700FEB45E /* Foundation.framework */,
 				60A7BFDF15FA82A700FEB45E /* SenTestingKit.framework */,
 				60A7BFE115FA82A700FEB45E /* UIKit.framework */,
-				25070C1AE9124CAAA0308320 /* libPods.a */,
 				86617B89177F605B0092B932 /* Cocoa.framework */,
 				86617B9E177F605B0092B932 /* XCTest.framework */,
 				86617B8B177F605B0092B932 /* Other Frameworks */,
-				36016D98451D4874A87B0426 /* libPods-PutioKit.a */,
-				4322E006979C4ADEB1B16335 /* libPods-PutioKit for Mac.a */,
+				0AB3758986C110371728EAC6 /* libPods-PutioKit.a */,
+				DFF42B0AF824AB8B3BED2486 /* libPods-PutioKit for Mac.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -351,12 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60A7BFF215FA82A700FEB45E /* Build configuration list for PBXNativeTarget "PutioKit" */;
 			buildPhases = (
-				59664DE2CDB0484383F96B7F /* Check Pods Manifest.lock */,
+				29FDD80ECAA68ED1518C58E6 /* Check Pods Manifest.lock */,
 				60A7BFC915FA82A700FEB45E /* Sources */,
 				60A7BFCA15FA82A700FEB45E /* Frameworks */,
 				60A7BFCB15FA82A700FEB45E /* CopyFiles */,
-				6804E653AFB44D35860808DA /* Copy Pods Resources */,
-				E4D16BEFB8E44DF58352E23C /* Copy Pods Resources */,
+				7B9F68381DD69A55455206A3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -384,18 +389,18 @@
 			name = PutioKitTests;
 			productName = PutioKitTests;
 			productReference = 60A7BFDE15FA82A700FEB45E /* PutioKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		86617B87177F605B0092B932 /* PutioKit for Mac */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86617BB0177F605B0092B932 /* Build configuration list for PBXNativeTarget "PutioKit for Mac" */;
 			buildPhases = (
-				45F1FB781C6D4B0DA5450793 /* Check Pods Manifest.lock */,
+				FCD25FF0A746E9A4337FD945 /* Check Pods Manifest.lock */,
 				86617B83177F605B0092B932 /* Sources */,
 				86617B84177F605B0092B932 /* Frameworks */,
 				86617B85177F605B0092B932 /* Headers */,
 				86617B86177F605B0092B932 /* Resources */,
-				57593608EF934069946759AA /* Copy Pods Resources */,
+				EDB4DC688E1448F76053E9AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -454,7 +459,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		45F1FB781C6D4B0DA5450793 /* Check Pods Manifest.lock */ = {
+		29FDD80ECAA68ED1518C58E6 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -467,34 +472,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-		};
-		57593608EF934069946759AA /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-PutioKit for Mac-resources.sh\"\n";
-		};
-		59664DE2CDB0484383F96B7F /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 		60A7BFDC15FA82A700FEB45E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -509,7 +487,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		6804E653AFB44D35860808DA /* Copy Pods Resources */ = {
+		7B9F68381DD69A55455206A3 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -521,9 +499,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PutioKit/Pods-PutioKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-		E4D16BEFB8E44DF58352E23C /* Copy Pods Resources */ = {
+		EDB4DC688E1448F76053E9AA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -535,7 +514,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-PutioKit-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PutioKit for Mac/Pods-PutioKit for Mac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD25FF0A746E9A4337FD945 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -676,7 +671,7 @@
 		};
 		60A7BFF315FA82A700FEB45E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 951E6D92D7504C389365BB9E /* Pods-PutioKit.xcconfig */;
+			baseConfigurationReference = 58A98E8620F740BC54D1EB6F /* Pods-PutioKit.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/PutioKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -692,7 +687,7 @@
 		};
 		60A7BFF415FA82A700FEB45E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 951E6D92D7504C389365BB9E /* Pods-PutioKit.xcconfig */;
+			baseConfigurationReference = 67587C09ACFECC63B5852938 /* Pods-PutioKit.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/PutioKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -738,7 +733,7 @@
 		};
 		86617BAC177F605B0092B932 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24B61896F5C444C9B92454D9 /* Pods-PutioKit for Mac.xcconfig */;
+			baseConfigurationReference = FA420A85D8C062550AE55D73 /* Pods-PutioKit for Mac.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -780,7 +775,7 @@
 		};
 		86617BAD177F605B0092B932 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24B61896F5C444C9B92454D9 /* Pods-PutioKit for Mac.xcconfig */;
+			baseConfigurationReference = D360C841725A801F8E88881B /* Pods-PutioKit for Mac.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
