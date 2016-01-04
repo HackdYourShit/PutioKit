@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
     :type => 'MIT',
     :file => 'LICENSE'
   }
-  
+
   s.authors      = { "Orta Therox" => "orta.therox@gmail.com", "other author" => "and email address" }
-  s.source       = { :git => "https://github.com/PutioKit/PutioKit.git", :branch => "orta", :commit => "HEAD" }
+  s.source       = { :git => "https://github.com/PutioKit/PutioKit.git" }
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.8'
   s.ios.frameworks  = 'UIKit'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.source_files = 'PutioKit/**/*.{h,m}'
   s.osx.source_files = 'PutioKit/Categories', 'PutioKit/Models', 'PutioKit/PutIOClient.{h,m}',
-    'PutioKit/PutIONetworkConstants.{h,m}', 'PutioKit/V2PutIOAPIClient.{h,m}', 
+    'PutioKit/PutIONetworkConstants.{h,m}', 'PutioKit/V2PutIOAPIClient.{h,m}',
     'PutioKit/PutioKit.h'
   s.dependency 'AFNetworking', '~> 1.0'
 end
