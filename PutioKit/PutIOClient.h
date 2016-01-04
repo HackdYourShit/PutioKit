@@ -6,7 +6,8 @@
 //  Copyright (c) 2012 ortatherox.com. All rights reserved.
 //
 
-#import "AFHTTPClient.h"
+#import <AFNetworking/AFHTTPClient.h>
+
 #import "PKFolderItem.h"
 
 // This is where the bulk of the API is presented to app developers.

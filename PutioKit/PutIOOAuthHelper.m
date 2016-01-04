@@ -6,9 +6,10 @@
 //  Copyright (c) 2012 ortatherox.com. All rights reserved.
 //
 
+#import <AFNetworking/AFNetworking.h>
+
 #import "PutIOClient.h"
 #import "PutIOOAuthHelper.h"
-#import "AFNetworking.h"
 #import "PutIONetworkConstants.h"
 
 // https://put.io/v2/docs/#authentication

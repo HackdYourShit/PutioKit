@@ -6,8 +6,9 @@
 //  Copyright (c) 2012 ortatherox.com. All rights reserved.
 //
 
+#import <AFNetworking/AFJSONRequestOperation.h>
+
 #import "PutIOClient.h"
-#import "AFJSONRequestOperation.h"
 #import "V2PutIOAPIClient.h"
 #import "PutIONetworkConstants.h"
 

@@ -6,8 +6,9 @@
 //  Copyright (c) 2012 ortatherox.com. All rights reserved.
 //
 
+#import <AFNetworking/AFNetworking.h>
+
 #import "PutioKit.h"
-#import "AFNetworking.h"
 
 // The v2 API uses is an AFHTTPClient, which does all networking and JSON parsing
 // presenting PKObject subclasses as arguments to onComplete blocks.
